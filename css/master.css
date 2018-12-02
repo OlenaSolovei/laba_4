@@ -1,0 +1,162 @@
+body {
+    margin: 0;
+    padding: 0 3%;
+    letter-spacing: 2px;
+    font-family: Catamaran-Regular;
+}
+
+input {
+    border: none;
+    background: none;
+}
+
+button {
+    border: none;
+    background: none;
+}
+
+header {
+    background: linear-gradient( 0deg, rgba(0,241,255, 0.8) 0%, rgba(0,168,178, 0.8) 100%), url(../img/background.png);
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    min-height: 600px;
+    align-items: center;
+}
+
+h2, h4 {
+    color: rgb(0, 167, 177);
+    text-align: center;
+    font-family: Catamaran-ExtraBold;
+}
+
+.side {
+    width: 30%;
+}
+
+.leftSide {
+    font-family: Catamaran-Light;
+}
+
+.rightSide {
+    background-color: rgba(51, 51, 51, 0.85);
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn {
+    padding: 5% 0;
+    width: 100%;
+    text-align: center;
+    font-family: Catamaran-Medium;
+    border-radius: 2px;
+}
+
+.leftButton {
+    color: rgb(231, 231, 231);
+}
+
+.rightButton {
+    background-color: rgb(231, 231, 231);
+    color: rgb(51, 51, 51);
+}
+
+.rightSide form {
+   padding: 0 4%; 
+   margin: 0;
+}
+
+form input {
+    background-color: white;
+    width: 100%;
+    margin-top: 3%;
+    height: 37px;
+    padding-left: 3%;
+}
+
+form p {
+    margin: 3% 0 0 0;
+}
+
+form button {
+    background-color: rgb(255, 102, 0);    
+    font-family: Catamaran-Black;
+    width: 100%;
+    height: 35px;
+    margin: 5% 0;
+    font-size: 26px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main h2 {
+
+}
+
+main p {
+    width: 85%;
+}
+
+.mainRow {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.rowItem {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rowItem p {
+    text-align: center;
+    font-size: 14px;
+}
+
+.rowItem img {
+    width: 77px;
+    height: 77px;
+}
+
+footer {
+   display: flex;
+   justify-content: space-between;
+   background-color: rgb(51, 51, 51);
+   padding: 2%
+}
+
+footer img {
+    width: 20%;
+}
+
+.contacts {
+    text-align: center;
+}
+
+@media (width < 800px) {
+    header {
+        flex-wrap: wrap;
+    }
+
+    header .side {
+        width: 100%;
+    }
+}
+
+@media (width < 550px) {
+    .mainRow {
+        flex-wrap: wrap;
+    }
+
+    .rowItem {
+        width: 35%;
+    }
+}

@@ -1,0 +1,53 @@
+@font-face {
+    font-family: Catamaran-Black;
+    src: url(../fonts/Catamaran-Black.ttf);
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: Catamaran-ExtraBold;
+    src: url(../fonts/Catamaran-ExtraBold.ttf);
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: Catamaran-Bold;
+    src: url(../fonts/Catamaran-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: Catamaran-SemiBold;
+    src: url(../fonts/Catamaran-SemiBold.ttf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: Catamaran-Medium;
+    src: url(../fonts/Catamaran-Medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: Catamaran-Regular;
+    src: url(../fonts/Catamaran-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Catamaran-Light;
+    src: url(../fonts/Catamaran-Light.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: Catamaran-ExtraLight;
+    src: url(../fonts/Catamaran-ExtraLight.ttf);
+    font-width: 200;
+}
+
+@font-face {
+    font-family: Catamaran-Thin;
+    src: url(../fonts/Catamaran-Thin.ttf);
+    font-width: 100;
+}
